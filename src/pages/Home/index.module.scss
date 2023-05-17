@@ -1,0 +1,21 @@
+.wrap {
+  background: rgb(35, 39, 65);
+  height: 100%;
+  overflow: hidden;
+}
+.user {
+  justify-content: right;
+  margin-bottom: 50px;
+}
+.createBtn {
+  text-align: left;
+  .innerBtn {
+    margin-bottom: 20px;
+  }
+  .popColor {
+    color: #ff0000
+  }
+  .popColorUnWork {
+    color: rgba(0, 0, 0, 0.25)
+  }
+}
